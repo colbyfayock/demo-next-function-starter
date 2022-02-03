@@ -5,3 +5,7 @@ yarn create next-app my-next-functions -e https://github.com/colbyfayock/demo-ne
 # or
 npx create-next-app my-next-functions -e https://github.com/colbyfayock/demo-next-function-starter
 ```
+
+## Final Demo
+
+https://github.com/colbyfayock/my-next-jest
