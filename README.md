@@ -1,11 +1,23 @@
-# Starter Demo for Testing Next.js Functions with Jest
+# Next Function Starter
 
+A starter project focused on next function, built with Next.js.
+
+## Use this template
+
+```bash
+npx create-next-app -e https://github.com/colbyfayock/demo-next-function-starter
 ```
-yarn create next-app my-next-functions -e https://github.com/colbyfayock/demo-next-function-starter
-# or
-npx create-next-app my-next-functions -e https://github.com/colbyfayock/demo-next-function-starter
+
+## Local setup
+
+Install dependencies with yarn and start the development server:
+
+```bash
+yarn install
+yarn dev
 ```
 
-## Final Demo
+Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-https://github.com/colbyfayock/my-next-jest
+Use `yarn build` to build the project.
+Use `yarn start` to run the production build.
