@@ -1,25 +1,23 @@
 # Demo Next Function Starter
 
-A Next.js order-calculator demo that accepts line items and tax/discount settings, then posts them to `/api/cart` to calculate the subtotal and final total.
+A Next.js order calculator that sends cart items and tax or discount settings to an API route to calculate totals.
 
-## Use this template
+## Getting Started
 
-```bash
-npx create-next-app -e https://github.com/colbyfayock/demo-next-function-starter
-```
-
-## Local setup
-
-Install dependencies with yarn, then start the development server:
+- Set up a new project
 
 ```bash
-yarn install
-yarn dev
+npx create-next-app my-next-function -e https://github.com/colbyfayock/demo-next-function-starter
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the app.
+- Navigate to your new project
 
-Use `yarn build` to create a production build.
-After building, use `yarn start` to serve the production build.
+```bash
+cd my-next-function
+```
 
-Related final demo: [my-next-jest](https://github.com/colbyfayock/my-next-jest).
+- Start the development server
+
+```bash
+npm run dev
+```
